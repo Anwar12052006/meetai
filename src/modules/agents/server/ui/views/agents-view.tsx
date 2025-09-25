@@ -5,12 +5,12 @@ import { ErrorState } from "@/components/ui/error-state";
 import { LoadingState } from "@/components/ui/loading-state";
 import { useTRPC } from "@/trpc/client";
 import { useSuspenseQuery } from "@tanstack/react-query";
-import { DataTable } from "./components/data-table";
 import { EmptyState } from "@/components/ui/empty-state";
 import { columns } from "./components/columns";
 import { useAgentsFilters } from "@/modules/agents/hooks/use-agents-filters";
 import { DataPagination } from "./components/data-pagination";
 import { useRouter } from "next/navigation";
+import { DataTable } from "@/components/ui/data-table";
 
 
 export const AgentsView = () => {
